@@ -1,0 +1,47 @@
+/* ----------HEADER--------- */
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url("../img/Banner.png");
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    h1 {
+        color: rgb(114, 101, 101);
+        font-family: 'Roboto', sans-serif;
+        font-size: 90px;
+        animation: titulo 3s 1;
+    }
+}
+
+/* BUSCADOR */
+
+.boton-lupa {
+    color: rgb(243, 160, 174);
+    &:hover {
+        background-color: rgb(243, 160, 174);
+        color: aliceblue;
+    }
+}
+
+/* Animacion Banner */
+
+@keyframes titulo {
+    0%{
+        color: rgb(243, 160, 174);
+        
+    }
+    30%{
+        letter-spacing: 25px;
+        
+    }
+    85%{
+        letter-spacing: 8px;
+    }
+    
+}

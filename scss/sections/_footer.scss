@@ -1,0 +1,12 @@
+/* -------FOOTER-------- */
+
+/* Botones */
+.color-boton {
+    background-color: rgb(243, 160, 174);
+    color: white;
+    &:hover {
+        background-color: rgb(114, 101, 101);
+        color: white;
+    
+    }
+}

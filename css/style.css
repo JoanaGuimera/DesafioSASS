@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* ----------HEADER--------- */
+/* BANNER */
+.banner {
+  width: 100%;
+  padding: 9rem 3rem;
+  text-align: center;
+  background: url("../img/Banner.png");
+  background-blend-mode: soft-light;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box; }
+  .banner h1 {
+    color: #726565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    animation: titulo 3s 1; }
+
+/* BUSCADOR */
+.boton-lupa {
+  color: #f3a0ae; }
+  .boton-lupa:hover {
+    background-color: #f3a0ae;
+    color: aliceblue; }
+
+/* ----- MAIN -----*/
+h2 {
+  font-family: 'Roboto', sans-serif; }
+
+.centrar {
+  display: flex;
+  justify-content: center; }
+
+/* -------FOOTER-------- */
+/* Botones */
+.color-boton {
+  background-color: #f3a0ae;
+  color: white; }
+
+.color-boton:hover {
+  background-color: #726565;
+  color: white; }
+
+/* Animacion Banner */
+@keyframes titulo {
+  0% {
+    color: #f3a0ae; }
+  30% {
+    letter-spacing: 25px; }
+  85% {
+    letter-spacing: 8px; } }
+
+/* Media Queries */
+@media (max-width: 580px) {
+  .container {
+    flex-direction: column;
+    align-items: center; } }
