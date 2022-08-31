@@ -1,19 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@import "../variables/fonts";
-
-@import "./components/generals";
-@import "./components/header";
-@import "./components/index-main";
+@import "../variables/typo";
 
 
-
-
-
-
-
-
+@import "./sections/index-main";
+@import "./sections/header";
+@import "./sections/footer";
