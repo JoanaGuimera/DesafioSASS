@@ -9,6 +9,10 @@ h2 {
   justify-content: center;
 }
 
+.row {
+  justify-content: space-around;
+}
+
 /* Media Queries */
 
 @media (max-width: 580px) {
@@ -17,3 +21,6 @@ h2 {
       align-items: center;
   }
 }
+
+
+
