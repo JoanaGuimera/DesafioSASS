@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-@import "../variables/typo";
+@import "../base/variables";
+@import "../base/extend";
 
 
 @import "./sections/index-main";

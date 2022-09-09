@@ -14,3 +14,6 @@ Descripcion:
 -Contacto: Completa el formulario y recibi ayuda en tu compra
 -Identificadores:No pierdas mas la mochi! pedinos tu identificador
 -Llaveros:Llaveros 3D, pedinos tu diseño personalizado
+
+Titulo:
+Cambie titulos de las pages
