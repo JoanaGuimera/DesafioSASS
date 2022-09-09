@@ -6,7 +6,7 @@
   font-size: 90px;
 }
  //Mixin
-@mixin hover-lupa ($color){
+@mixin hover ($color){
     background-color: $PaletaRosa;
     color: $color;
 }

@@ -5,7 +5,6 @@
   background-color: $PaletaRosa;
   color: white;
   &:hover {
-    background-color: $PaletaGris;
-    color: white;
+    @include hover(black);
   }
 }

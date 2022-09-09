@@ -22,7 +22,7 @@
 .boton-lupa {
   color: $PaletaRosa;
   &:hover {
-   @include hover-lupa($PaletaGris);
+    @include hover($PaletaGris);
   }
 }
 
